@@ -7,7 +7,8 @@ var MARGIN_LEFT = 30;
 var MARGIN_TOP = 60;
 var RADIUS = 8;
 var curShowTimeSeconds = 0;
-var endTime = new Date(2016, 11, 6, 12, 12);
+var endTime = new Date();
+endTime.setTime(endTime.getTime() + 3600 * 1000);
 var balls = [];
 var colors = ["#33B5E5", "#0099CC", "#AA66CC", "#9933CC", "#99CC00", "#669900", "#FFBB33", "#FF8800", "#FF444", "#CC000C"];
 window.onload = function() {
